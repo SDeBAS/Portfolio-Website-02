@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" class="css">
+    <link rel="stylesheet" href="all.css" class="css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <div class="scroll-up-button">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <!--Navigation Section-->
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#team" class="menu-btn">Teams</a></li>
+                <li><a href="#contact" class="menu-btn">Contacts</a></li>
+                
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <!--Home Section-->
+    <section class="home" id="home">
+        <div class="max-width" >
+            <div class="home-content" data-aos="slide-right">
+                <div class="text-1">Hello, My name is</div>
+                <div class="text-2">Debanjan Basu</div>
+                <div class="text-3">And I'm a <span class="typing">Graphic Designer</span></div>
+                <a href="#">Hire Me</a>
+            </div>
+
+        </div>
+    </section>
+    <!--About me-->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">
+                About me
+            </h2>
+            <div class="about-content" data-aos="slide-right">
+                <div class="column left">
+                    <img src="images/about.jpg" >
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Debanjan and I'm a <span class="type">Designer</span></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsum nemo dignissimos id commodi facere hic dicta nesciunt, expedita quas ea nobis reiciendis, iste, quia exercitationem perferendis blanditiis similique amet odio! Enim commodi dolorum amet eaque quod ea sapiente ipsa eum laborum alias doloribus similique, quis dolor necessitatibus molestias eveniet totam et ut eligendi cupiditate voluptatem provident quos inventore. Officia.</p>
+                    <a href="">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Services Section-->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">
+                My Services
+            </h2>
+            <div class="serv-content" data-aos="zoom-in-up">
+                <div class="card">
+                    <div class="box">
+                        <img src="images/web-design.svg" width="50px">
+                        <div class="text">Web Design</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate adipisci illo quos quisquam mollitia aspernatur odio reiciendis suscipit deleniti repellat.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/paint-brush.svg" width="50px">
+                        <div class="text">Graphic Design</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate adipisci illo quos quisquam mollitia aspernatur odio reiciendis suscipit deleniti repellat.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/video-editing-app.svg" width="50px">
+                        <div class="text">Video Editing</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate adipisci illo quos quisquam mollitia aspernatur odio reiciendis suscipit deleniti repellat.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/hacker.svg" width="50px">
+                        <div class="text">Ethical Hacking</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate adipisci illo quos quisquam mollitia aspernatur odio reiciendis suscipit deleniti repellat.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/visual-effect.svg" width="50px">
+                        <div class="text">Motion Graphics</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate adipisci illo quos quisquam mollitia aspernatur odio reiciendis suscipit deleniti repellat.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/laptop.svg" width="50px">
+                        <div class="text">Data Entry</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate adipisci illo quos quisquam mollitia aspernatur odio reiciendis suscipit deleniti repellat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Skill Section-->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title"> My Skills</h2>
+            <div class="skills-content" data-aos="flip-left">
+                <div class="column left">
+                    <div class="text">My Creative Skills & Experiences</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit assumenda earum dignissimos voluptatibus rerum sint eum dolore odio, architecto tempore et, alias dolores modi, mollitia id vero! Reprehenderit, quisquam possimus. Earum recusandae mollitia assumenda nesciunt blanditiis perferendis nobis reprehenderit deserunt distinctio sed, asperiores voluptates sunt laboriosam enim obcaecati eum esse consectetur commodi beatae minus? Quae impedit autem doloribus cumque ipsam.</p>
+                    <a href="#">Read More</a>
+                </div>
+            <div class="column right">
+                <div class="bars">
+                    <div class="info">
+                        <span>Photoshop</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="line Photoshop"></div>
+                </div>
+               
+                <div class="bars">
+                    <div class="info">
+                        <span>Illustrator</span>
+                        <span>65%</span>
+                    </div>
+                    <div class="line Illustrator"></div>
+                </div>
+               
+                <div class="bars">
+                    <div class="info">
+                        <span>After Effects</span>
+                        <span>50%</span>
+                        
+                    </div>
+                    <div class="line After-Effects"></div>
+                </div>
+                
+                <div class="bars">
+                    <div class="info">
+                        <span>FrontEnd (HTML, CSS, JS)</span>
+                        <span>85%</span>
+                        
+                    </div>
+                    <div class="line FrontEnd"></div>
+                </div>
+                
+                <div class="bars">
+                    <div class="info">
+                        <span>Adobe Xd</span>
+                        <span>45%</span>
+                       
+                        </div>
+                        <div class="line Xd"></div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Teams Section-->
+    <section class="team" id="team">
+        <div class="max-width" data-aos="fade-in">
+            <h2 class="title">My Team</h2>
+            <div class="carousel owl-carousel">
+                <div class="card ">
+                    <div class="box">
+                        <img src="images/ayan.png" width="150px">
+                        <div class="text">Ayan Nandi</div>
+                        <p>Data Scientist</p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="box">
+                        <img src="images/popita.jpg"  width="150px" >
+                        <div class="text">Popita Mukherjee</div>
+                        <p>Mohattori Dhonontori</p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="box">
+                        <img src="images/ayu.png"  width="150px" >
+                        <div class="text">Ayushya Chongder</div>
+                        <p>Chef</p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="box">
+                        <img src="images/raj.png"  width="150px" >
+                        <div class="text">Rajarshi Barman</div>
+                        <p>Anime Buddy</p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="box">
+                        <img src="images/gourav.jpg.png"  width="150px" >
+                        <div class="text">Gourav Nag</div>
+                        <p>Confused Atma</p>
+                    </div>
+                </div><div class="card ">
+                    <div class="box">
+                        <img src="images/proheli.jpg"   width="150px">
+                        <div class="text">Proheli Paul</div>
+                        <p>Promata</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contacts Section-->
+    <section class="contact" id="contact">
+        <div class="max-width" data-aos="zoom-out-up">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content" >
+                <div class="column left">
+                    <div class="text">Get inTouch</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum impedit quas itaque reiciendis laboriosam perspiciatis quo ullam aperiam cum fugit?</p>
+                    <div class="icons">
+                    <div class="row">
+                        <i class="fas fa-user"></i>
+                        <div class="info">
+                            <div class="head">Name</div>
+                            <div class="sub-title">Debanjan Basu</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="info">
+                            <div class="head">Address</div>
+                            <div class="sub-title">West Bengal, India </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info">
+                            <div class="head">Email</div>
+                            <div class="sub-title">basu.debanjan00@gmail.com</div>
+                        </div>
+                    </div> 
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message Me</div>
+                    <form action="">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                            </div>
+                            <div class="field ">
+                                <input type="text" placeholder="Subject" required>
+                            </div>
+                            <div class="field textarea">
+                                <textarea  cols="30" rows="10" placeholder="Describe the project" required></textarea>
+                            </div>
+                            <div class="button">
+                                <button type="submit">Send message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Footer Section-->
+    <footer>
+        <span>Created By <a href="#">Debanjan Basu</a> | <span class="far fa-copyright">&nbsp;</span>2021  All rights reserved.</span>
+    </footer>
+   
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init({
+         offset: 300,
+         delay: 0,
+         duration: 1000,
+    });</script>
+</body>
+</html>
